@@ -1,7 +1,10 @@
 import './app.css';
-
+// components
 import Profile from './profile/profile';
+import StatisticsList from './statistics/Statistics';
+//data
 import user from './profile/user.json';
+import statsData from './statistics/data.json';
 
 export const App = () => {
   return (
@@ -12,7 +15,8 @@ export const App = () => {
         tag={user.tag}
         location={user.location}
         stats={user.stats}
-      ></Profile>
+      />
+      <StatisticsList stats={statsData} title="Statistics" />
     </div>
   );
 };
