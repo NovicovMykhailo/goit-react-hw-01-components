@@ -1,0 +1,10 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 18px;
+  color: #010101;
+  margin: 0;
+  padding: 0;
+}
