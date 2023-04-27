@@ -1,16 +1,17 @@
 .statistics {
-  margin-top: 55px;
+  position: relative;
+  top: 55px;
   text-align: center;
   box-shadow: 2px 2px 10px #0000005c;
   border-radius: 10px;
   overflow: hidden;
 
 }
-.title {
+.statistics .title {
   text-transform: uppercase;
   color: gray;
 }
-.stat-list {
+.statistics .stat-list {
 color: white;
   padding: 0;
   margin: 0;
@@ -19,7 +20,7 @@ color: white;
 
   text-align: center;
 }
-.item {
+.statistics .item {
   width: 50px;
   display: flex;
   flex-direction: column;
@@ -27,25 +28,25 @@ color: white;
 
 
 }
-.item:nth-child(1) {
+.statistics .item:nth-child(1) {
   background-color: #51c3fa;
 }
-.item:nth-child(2) {
+.statistics .item:nth-child(2) {
   background-color: #a33df2;
 }
-.item:nth-child(3) {
+.statistics .item:nth-child(3) {
   background-color: #dc566c;
 }
-.item:nth-child(4) {
+.statistics .item:nth-child(4) {
   background-color: #21b8c2;
 }
-.item:nth-child(5) {
+.statistics .item:nth-child(5) {
   background-color: rgb(222, 129, 222);
 }
-.label{
+.statistics .label{
     margin-bottom: 10px;
     font-size: 16px;
 }
-.percentage{
+.statistics .percentage{
     font-size: 25px;
 }

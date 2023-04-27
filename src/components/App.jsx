@@ -1,11 +1,15 @@
 import './app.css';
-// components
+// components ===========
 import Profile from './profile/profile';
 import StatisticsList from './statistics/Statistics';
-//data
+import FriendsList from './friendlist/Friends';
+
+//data ============
 import user from './profile/user.json';
 import statsData from './statistics/data.json';
+import friendsData from './friendlist/friends.json';
 
+// ===============
 export const App = () => {
   return (
     <div className="main">
@@ -17,6 +21,7 @@ export const App = () => {
         stats={user.stats}
       />
       <StatisticsList stats={statsData} title="Statistics" />
+      <FriendsList friends={friendsData} />
     </div>
   );
 };
