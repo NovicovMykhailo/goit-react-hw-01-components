@@ -1,6 +1,6 @@
 import css from './App.module.css';
 // components ===========
-import Profile from './profile/Profile'
+import Profile from './profile/profile'
 import StatisticsList from './statistics/Statistics';
 import FriendsList from './friendlist/Friends';
 import Transactions from './transactions/Transactions'
