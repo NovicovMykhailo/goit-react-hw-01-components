@@ -1,6 +1,6 @@
-import './app.css';
+import css from './App.module.css';
 // components ===========
-import Profile from './profile/profile';
+import Profile from './profile/Profile'
 import StatisticsList from './statistics/Statistics';
 import FriendsList from './friendlist/Friends';
 import Transactions from './transactions/Transactions'
@@ -13,7 +13,7 @@ import transactions from './transactions/transactions.json';
 // ===============
 export const App = () => {
   return (
-    <div className="main">
+    <div className={css.main}>
       <Profile
         avatar={user.avatar}
         username={user.username}

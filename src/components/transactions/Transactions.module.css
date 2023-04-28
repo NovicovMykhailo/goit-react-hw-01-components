@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
   width: 450px;
   text-align: center;
   background-color: #fff;
@@ -8,12 +8,10 @@
   border-collapse: collapse;
   grid-column: 2;
   position: relative;
-  top:-280px;
-
-
+  top: -280px;
 }
 
-.transaction-history > tbody > tr > td:nth-child(1) {
+.transactionHistory > tbody > tr > td:nth-child(1) {
   text-align: left;
   padding-left: 25px;
 }
