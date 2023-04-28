@@ -5,6 +5,9 @@
   overflow: hidden;
   width: 450px;
   height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .title {
   text-transform: uppercase;
@@ -16,7 +19,7 @@
   margin: 0;
   list-style: none;
   display: flex;
-
+  align-self: flex-end;
   text-align: center;
 }
 .item {

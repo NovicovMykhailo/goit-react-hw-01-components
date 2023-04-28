@@ -1,10 +1,10 @@
 import css from 'components/statistics/Statistics.module.css';
 import PropTypes from 'prop-types';
 
-export default function StatisticsList({ stats, title = 'Upload stats' }) {
+export default function StatisticsList({ stats, title}) {
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>{title}</h2>
+       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css.statList}>
         {stats.map(item => (
           <li className={css.item} key={item.id}>
