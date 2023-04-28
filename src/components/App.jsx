@@ -9,7 +9,6 @@ import user from './profile/user.json';
 import statsData from './statistics/data.json';
 import friendsData from './friendlist/friends.json';
 import transactions from './transactions/transactions.json';
-
 // ===============
 export const App = () => {
   return (
